@@ -1,0 +1,86 @@
+img {
+  width: 200px;
+  height: 200px;
+  transform: perspective(800px) rotateY(70deg);
+  position: relative;
+}
+#img1{
+    animation-name: razvorot-img1;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+}
+#img2 {
+  left: -160px;
+  animation-name: razvorot-img2;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
+#img3 {
+  left: -310px;
+  animation-name: razvorot-img3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+#img4 {
+  left: -460px;
+  animation-name: razvorot-img4;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes razvorot-img1 {
+  0% {left: 0%;
+  }
+  100%{
+    left: 300px;
+    transform: none ;
+  }
+}
+@keyframes razvorot-img2 {
+    0%{
+        left:-160px;
+    }
+    50%{
+        left:150px;
+        transform: rotateX(0);
+        filter: none;
+    }
+    100%{
+        filter: blur(10px);
+        left: 300px;
+        transform: none;
+    }
+    
+}
+@keyframes razvorot-img3 {
+    0%{
+        left: -310px;
+    }
+    50%{
+        left:0px ;
+        transform:rotateX(0);
+        filter: none;
+    }
+    100%{
+        left: 300px;
+        transform: none;
+        filter: grayscale(1);
+    }
+    
+}
+@keyframes razvorot-img4 {
+    0%{
+        left: -460px;
+    }
+    50%{
+        left:-150px;
+        transform: rotateX(0);
+        filter: none;
+    }
+    100%{
+        left: 300px;
+        transform: none;
+        filter:invert(1);
+    }
+}
+
+

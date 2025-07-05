@@ -1,0 +1,65 @@
+img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 200px;
+}
+div{
+    display: inline-block;
+}
+#img1:hover{
+transform: scale(0.5);
+}
+#img2:hover{
+    transform: rotate(45deg);
+}
+#img3:hover{
+    transform: translate(50px);
+}
+#img4:hover{
+    transform: skew(-20deg);
+}
+#img5{
+    transform: 
+    perspective(800px)
+    rotateX(45deg)  ;
+}
+#img6{
+    transform: 
+    perspective(800px)
+    rotateY(45deg);
+}
+#img7{
+    transform: 
+    perspective(800px)
+    rotateX(45deg);
+}
+#img8{
+    transform: perspective(800px)
+    rotateY(-45deg);
+}
+button{
+    width: 130px;
+    height: 80px    ;
+}
+#but1:hover{
+    background-color: black;
+    color: white;
+}
+#but2:hover{
+    border:solid red;
+    outline: 4px solid yellow;
+}
+#but3:hover{
+    border: none;
+    border-top: 4px solid green;
+    border-bottom: 4px solid green;;
+}
+#but4:hover{
+    border: none;
+    border-left:4px solid blue;
+    border-right: 4px solid blue;
+}
+#but5:hover{
+    border: none;
+    background-image:radial-gradient(yellow,pink,purple,aqua);
+}

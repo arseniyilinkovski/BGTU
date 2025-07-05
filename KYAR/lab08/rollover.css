@@ -1,0 +1,45 @@
+.menu ul{
+    list-style: none;
+}
+nav>ul>li{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    width: 80px;
+    margin-right: 50px;
+    border: 1px solid black;
+    background-color: azure;
+}
+nav>ul>li>ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+   margin: 0;
+   padding: 0;
+}
+nav ul li ul li{
+    border: 1px solid black;
+    background-color: gainsboro;
+    padding: 20px;
+   width: 80px;
+   visibility: hidden;
+}
+nav>ul>li:hover>ul>li{
+    visibility: visible;
+}
+nav> ul>li>a{
+    background: url(facultet.png) no-repeat 0 0;
+    width: 30px;
+    height: 30px;
+    display:block;
+    padding-left: 50px;
+}
+nav> ul>li:hover>.a2{
+    background: url(facultet.png) no-repeat 0 -30px;
+}
+li:hover>.a3{
+    background: url(facultet.png) no-repeat 0 -90px;
+}
+li:hover>.a4{
+    background: url(facultet.png) no-repeat 0 -60px;
+}
