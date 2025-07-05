@@ -1,0 +1,51 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+div{
+    border: 2px solid gray;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.title{
+    order: 1;
+    width: 100%;
+    margin-top: 10px;
+}
+.cell1{
+    order: 2;
+    align-self: flex-start;
+    flex: 1 1 300px;
+    margin: 20px 5px 20px 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.cell2{
+    order: 3;
+    align-self: flex-start;
+    flex: 2 1 300px;
+    margin: 20px 5px 20px 5px;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.cell3{
+    order: 4;
+    align-self: flex-start;
+    flex: 1 1 300px;
+    margin: 20px 0px 20px 5px;
+    display: flex;
+    flex-flow: column wrap;
+}
+video{
+    flex: 1 1 400px;
+    margin-bottom: 5px;
+}
+audio{
+    align-self: center;
+}
+

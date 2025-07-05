@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform1.xslt"?>
+<students>
+	<student>
+		<id>1</id>
+		<name>Студент 1</name>
+		<grade>3</grade>
+	</student>
+	<student>
+		<id>2</id>
+		<name>Студент 2</name>
+		<grade>5</grade>
+	</student>
+	<student>
+		<id>3</id>
+		<name>Студент 3</name>
+		<grade>9</grade>
+	</student>
+	<student>
+		<id>4</id>
+		<name>Студент 4</name>
+		<grade>8</grade>
+	</student>
+	<student>
+		<id>5</id>
+		<name>Студент 5</name>
+		<grade>2</grade>
+	</student>
+</students>

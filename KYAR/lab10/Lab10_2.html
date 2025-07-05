@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>Lab10_2</title>
+    <meta charset="utf-8">
+    <link href="Lab10_2_css.css" rel="stylesheet" media="all">
+   
+</head>
+<body>
+<main class="container">
+    <div class="menu_box">
+        <input id="ch" type="checkbox">
+        <label class="menu_btn" for="ch"><img src="menu.png" alt="" class="img"></label>
+        
+        <div class="menu_item">
+            <label><a href="#c1 ">Видосики</a></label>
+            <label><a href="#c2">Информация о flex</a></label>
+            <label><a href="#c3">Музычка</a></label>
+        </div>
+    </div>
+    <div id="c1" class="title">Задание 3 </div>
+    <div class="cell1">
+        <video src="vid1.mp4" width="200px" height="300px" controls="controls" preload="auto"></video>
+        <video src="vid2.mp4" width="300px" height="300px" controls="controls" preload="auto"></video>
+        <video src="vid3.mp4" width="300px" height="300px" controls="controls" preload="auto"></video>
+    </div>
+    <div id="c2" class="cell2">
+        <h2>Основные компоненты</h2>
+        <p>Основным компонентом адаптивного дизайна являются 
+            гибкие сетки, которые являются частью резинового дизайна. 
+            Применение гибких сеток заключается в установке процентного 
+            значения ширины вместо абсолютного в пикселах.
+            Различные ширины экрана, которые указываются с помощью 
+            медиазапросов называются точками останова. Стандартными 
+            принято считать следующие разрешения: для мобильных 
+            устройств 480px, для планшетных компьютеров 768 px, для 
+            нетбуков 1024 px, для ПК 1280 px и больше
+        </p>
+    </div>
+    <div id="c3" class="cell3">
+        <p>Music1</p>
+        <audio src="mus1.mp3" controls preload="auto"></audio>
+        <p>Music2</p>
+        <audio src="mus2.mp3" controls preload="auto"></audio>
+        <p>Music3</p>
+        <audio src="mus3.mp3" controls preload="auto"></audio>
+    </div>
+</main>
+</body>

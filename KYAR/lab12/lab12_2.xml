@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="forXML.css"?>
+<!DOCTYPE store [
+    <!ELEMENT store (products)>
+    <!ELEMENT products (product+)>
+    <!ELEMENT product (id, name, category, price, description)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT category (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
+<store>
+    <ttle>Интернет-магазин</ttle>
+    <products>
+        <product>
+            <id>1</id>
+            <name>Смартфон XYZ</name>
+            <category>Электроника</category>
+            <price>29999</price>
+            <description>Современный смартфон с отличной камерой и производительностью.</description>
+        </product>
+        <product>
+            <id>2</id>
+            <name>Ноутбук ABC</name>
+            <category>Компьютеры</category>
+            <price>59999</price>
+            <description>Мощный ноутбук для работы и игр с высокой производительностью.</description>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Наушники DEF</name>
+            <category>Аудио</category>
+            <price>4999</price>
+            <description>Беспроводные наушники с отличным качеством звука.</description>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Фитнес-браслет GHI</name>
+            <category>Гаджеты</category>
+            <price>3499</price>
+            <description>Умный фитнес-браслет для отслеживания активности и сна.</description>
+        </product>
+        <product>
+            <id>5</id>
+            <name>Камера JKL</name>
+            <category>Фото и видео</category>
+            <price>24999</price>
+            <description>Цифровая камера с высоким разрешением и множеством функций.</description>
+        </product>
+    </products>
+</store>

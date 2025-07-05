@@ -1,0 +1,73 @@
+
+div{
+    display: flex;
+    border: solid 3px purple;
+    width: 250px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+#img2{
+    left:-250px;
+animation-name: anim4;
+animation-duration: 1.25s;
+animation-delay: 4s;
+animation-fill-mode:forwards;
+}
+#img3{
+left: -500px;
+animation-name: anim3;
+animation-duration: 1.25s;
+animation-delay: 3s;
+animation-fill-mode:forwards;
+}
+#img4{
+    left: -750px;
+    animation-name: anim2;
+    animation-duration: 1.25s;
+    animation-delay: 2s;
+    animation-fill-mode:forwards;
+}
+#img5{
+    left: -1000px;
+    animation-name: anim1;
+    animation-duration: 1.25s;
+    animation-delay: 1s;
+    animation-fill-mode:forwards;
+}
+@keyframes anim1 {
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes anim2 {
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes anim3 {
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes anim4 {
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

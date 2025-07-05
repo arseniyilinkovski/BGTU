@@ -1,0 +1,28 @@
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin center{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+%qwe {
+    display: flex;
+}
+
+.center {
+    @include center;
+    @extend %qwe;
+}
+
+nav {
+    @include flex;
+}
+
+.flex {
+    @include flex;
+}

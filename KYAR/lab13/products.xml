@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xslt"?>
+<catalog>
+	<product>
+		<id>1</id>
+		<name>Ноутбук</name>
+		<price>50000</price>
+		<description>Мощный ноутбук для работы и игр.</description>
+	</product>
+	<product>
+		<id>4</id>
+		<name>Наушники</name>
+		<price>40000</price>
+		<description>Беспроводные наушники с хорошим звуком.</description>
+	</product>
+	<product>
+		<id>3</id>
+		<name>Смартфон</name>
+		<price>30000</price>
+		<description>Современный смартфон с отличной камерой.</description>
+	</product>
+	<product>
+		<id>2</id>
+		<name>Планшет</name>
+		<price>20000</price>
+		<description>Удобный планшет для чтения и серфинга в интернете.</description>
+	</product>
+	<product>
+		<id>5</id>
+		<name>Фотокамера</name>
+		<price>5000</price>
+		<description>Цифровая фотокамера для профессиональной съемки.</description>
+	</product>
+</catalog>

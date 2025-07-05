@@ -1,0 +1,35 @@
+@function FStext($title) {
+    @if ($title > 20px) {
+        @return 16px;
+    } @else {
+        @return 20px;
+    }
+}
+
+.gap {
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    width: 80%;
+}
+
+p {
+    font-size: FStext(30px);
+}
+
+.border {
+    border: 1px solid black;
+}
+
+main {
+    flex: 1 1 auto;
+    .border {
+        flex: 2 1;
+    }
+
+    aside {
+        flex: 1 1;
+    }
+}

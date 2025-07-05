@@ -1,0 +1,19 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.wrapper div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+
+    text-align: center;
+    border: 2px solid;
+}
+.box9{
+    grid-column: 4/5;
+    width: 200px;
+    height: 200px;
+}

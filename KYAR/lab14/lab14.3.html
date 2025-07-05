@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .elka{
+    background: url(елка.svg);
+    width: 400px;
+    height: 400px;}
+    </style>
+</head>
+<body>
+    <div class="elka">
+        <svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+            <!-- Елочка -->
+            <path d="M100 50 L30 150 L170 150 Z" fill="green" />
+            <path d="M100 100 L20 200 L180 200 Z" fill="green" />
+            <path d="M100 150 L10 250 L190 250 Z" fill="green" />
+            
+            <!-- Украшения в виде шариков -->
+            <circle cx="100" cy="100" r="5" fill="red">
+                <animate attributeName="r" from="5" to="10" dur="0.5s" begin="0s" repeatCount="indefinite" />
+            </circle>
+            <circle cx="70" cy="130" r="5" fill="yellow">
+                <animate attributeName="r" from="5" to="10" dur="0.5s" begin="0s" repeatCount="indefinite" />
+            </circle>
+            <circle cx="130" cy="130" r="5" fill="blue">
+                <animate attributeName="r" from="5" to="10" dur="0.5s" begin="0s" repeatCount="indefinite" />
+            </circle>
+            
+            <!-- Звезда на верхушке елки -->
+            <path d="M100 10 L110 30 L130 30 L115 45 L120 65 L100 55 L80 65 L85 45 L70 30 L90 30 Z" fill="gold">
+                <animate attributeName="transform" type="rotate" from="0 100 10" to="360 100 10" dur="5s" repeatCount="indefinite" />
+            </path>
+        </svg>
+    </div>
+    
+</body>
+</html>

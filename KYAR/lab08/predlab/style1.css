@@ -1,0 +1,70 @@
+h1,
+h2,
+h3 {
+  color: purple;
+  font-family: Monotype Corsiva;
+}
+#kat{
+  padding-top: 150px;
+}
+.punkt1 {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18pt;
+}
+.punkt2 {
+  color: yellow;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20pt;
+}
+.punkt3 {
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22pt;
+}
+body table {
+  color: blue;
+}
+.p1 {
+  color: blue;
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p2 {
+  color: #800000;
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.p3 {
+  color: #a52a2a;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p4{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style: none;
+  background: url(mark.png);
+  background-repeat: no-repeat;
+  padding: 24px;
+  margin: 10px;
+  background-position: left center;
+}
+body {
+  background-image: url(sticker-FIT.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+#img1{
+    width: 400px;
+    height: 250px;
+    float: left;
+}
+#img2{
+    width: 400px; 
+    height: 300px;
+    float: right;
+}

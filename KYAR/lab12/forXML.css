@@ -1,0 +1,19 @@
+products {
+    display: block;
+}
+product {
+    display: block;
+    margin: 5px;
+    font-size: 25px;
+}
+
+ttle{
+    text-align: center;
+    font-size:50px;
+}
+product {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding:10px;
+}
+

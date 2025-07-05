@@ -1,0 +1,15 @@
+*{
+    background-color: #BDB76B;
+}
+
+div > h2{
+    color: rgb(0, 250, 154);
+}
+
+body h3{
+    color: yellow;
+}
+
+#qwe{
+    text-decoration: line-through   ;
+}

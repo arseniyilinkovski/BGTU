@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.aside,article,ul{
+    display: inline-block;
+}
+.aside{
+    position:absolute;
+    right: 0;
+    border-left: 5px solid grey;
+}
+ul{
+    list-style-type:none;
+    font-size: 20px;
+}
+a:link{
+color: red;
+}
+a:visited{
+    color: #8B0000;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: rgb(184, 134, 11);
+}

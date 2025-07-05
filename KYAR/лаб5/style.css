@@ -1,0 +1,31 @@
+table
+{
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+th, td 
+{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+  
+th
+{
+  background-color: rgb(121, 233, 121);
+}
+    
+table caption 
+{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+tr:nth-child(5n+2) 
+td:first-child
+{
+  color: rgb(233, 121, 121);
+  background-color: rgb(121, 233, 121);
+}

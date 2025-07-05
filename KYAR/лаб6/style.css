@@ -1,0 +1,39 @@
+body{
+    background-image: url("аше.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 80em 10px;
+}
+
+ul{
+    list-style-image: url("cat.png");
+}
+
+
+
+.image{
+    text-align: right;
+}
+
+.block1{
+    display: flex;
+}
+.block1_1{
+    text-indent: 20px;
+    margin: 0;
+    padding: 0;
+}
+.block2{
+    display: flex;
+}
+.block2_1{
+    text-indent: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.ggg{
+    background-attachment:scroll;
+}
+
+

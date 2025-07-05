@@ -1,0 +1,48 @@
+body {
+      overflow: hidden;
+    display: grid;
+    background: none;
+    border: none;
+    height: 680px;
+    grid-template-columns: 10% 70% 20%;
+    grid-template-rows: 25% 65% 15%;
+    grid-template-areas:
+      "nav header header"
+      "nav article aside"
+      "footer footer footer";
+      grid-gap: 5px;
+}
+nav {
+    grid-area: nav;
+}
+header {
+   grid-area: header;
+}
+article {
+   grid-area: article;
+}
+aside {
+   grid-area: aside;
+}
+footer {
+   grid-area: footer;
+}
+nav>a{
+      font-size: 30px;
+      text-align: center;
+      display: block;
+}
+header{
+  text-align: center;
+      padding:4%;
+      font-size: 50px;
+}
+article{
+      font-size: 25px;
+}
+aside{
+      font-size: 30px;
+}
+footer{
+      font-size: 20px;
+}  

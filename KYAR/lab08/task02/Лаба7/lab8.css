@@ -1,0 +1,8 @@
+li{
+    display: inline-block;
+    background-color: yellow;
+    border: 2px solid rgb(173, 255, 47);
+    margin: -3px;
+    color: rgb(173, 255, 47);
+    padding: 20px;
+}

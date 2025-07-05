@@ -1,0 +1,27 @@
+x.cb {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.cb tr td {
+    border: 1px solid;
+    width: 4em;
+    height: 4em;
+    text-align: center;
+    vertical-align: middle;
+}   
+.bkv{height: 18px;
+    border: 2px solid;
+    background-color: rgb(181, 181, 181);
+}
+.cfr{
+    width:18px;
+    border: 2px solid;
+    background-color: rgb(181, 181, 181);
+}
+.cb tr:nth-child(odd) td:nth-child(even) {
+background: black;
+}
+.cb tr:nth-child(even) td:nth-child(odd) {
+    background: black;
+}
+

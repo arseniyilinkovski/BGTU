@@ -1,0 +1,33 @@
+.group{
+    display: flex;
+}
+.block1{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom,blue,red );
+}
+.block2{    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg, red 15%  , red 20% ,blue 20%, blue 25%);
+}
+.block3{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(yellow,green);
+}
+.block4{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-image:  repeating-radial-gradient( green 20%, green 30%, yellow 30%, yellow 35% )
+}
+.block5{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(yellow, green, transparent),
+    linear-gradient( blue, purple);
+}

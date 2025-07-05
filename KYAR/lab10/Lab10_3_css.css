@@ -1,0 +1,38 @@
+@import url(lab10_3_imp.css) (min-width: 768px) and (max-width: 1280px);
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.cell1{
+    align-self: flex-start;
+    flex: 1 1 300px;
+    margin: 20px 5px 20px 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+h3{width: 100%;
+    margin-top: 0%;
+}
+img{
+    margin: 5px;
+    width: 30%;
+    height: 30%;
+    flex: 1 1 100px;
+}
+
+@media (max-width: 1280px){
+    .cell1{
+        flex-flow: column;
+    }
+    img{
+        width: 100%;
+    }
+
+}

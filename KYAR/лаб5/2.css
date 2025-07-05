@@ -1,0 +1,30 @@
+th, td{
+    border: 2px solid gray;
+}
+table{
+    empty-cells: hide;
+    border-spacing: 0;
+    text-align: center;
+}
+caption{
+    font-size: 1.2em;
+    text-align: center;
+}
+th{
+    background-color: darkblue;
+    color: white;   
+}
+td:nth-child(2){
+    color:white;
+    background-color: #00bff0;
+}
+td:nth-child(3){
+    color:white;
+    background-color: purple;
+    width: 30px;
+}
+td:nth-child(4){
+    color:white;
+    background-color: green;
+    width: 30px;
+}

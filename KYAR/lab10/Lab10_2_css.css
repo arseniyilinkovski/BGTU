@@ -1,0 +1,136 @@
+body{
+    font-family: "Arial Narrow", sans-serif;
+    text-align: center;
+}
+div{
+    border: 4px dotted red;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.title{
+    order: 1;
+    width: 100%;
+    margin-top: 10px;
+}
+.cell1{
+    order: 2;
+    align-self: flex-start;
+    flex: 1 1 300px;
+    margin: 20px 5px 20px 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.cell2{
+    order: 3;
+    align-self: flex-start;
+    flex: 2 1 300px;
+    margin: 20px 5px 20px 5px;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.cell3{
+    order: 4;
+    align-self: flex-start;
+    flex: 1 1 300px;
+    margin: 20px 0px 20px 5px;
+    display: flex;
+    flex-flow: column wrap;
+}
+video{
+    flex: 1 1 400px;
+    margin-bottom: 5px;
+}
+audio{
+    align-self: center;
+}
+
+.menu_box{
+    width: 100%;
+    border: none;
+
+}
+.menu_item{
+    display: flex;
+    flex-flow: row;
+    border: none;
+}
+.menu_item label{
+    flex: 1 1 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: 4px double cyan;
+    border-radius: 20px;
+    height: 50px;
+    width: 98%;
+    text-align: center;
+
+}
+#ch{
+    position: fixed;
+    left: -100%;
+}
+.menu_btn{
+    position: fixed;
+    left: -100%;
+}
+.menu{
+    position: fixed;
+    visibility: hidden;
+    left: -100%;
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+}
+@media (max-width: 580px){
+    a{
+        width: 99%;
+        height: 40px;
+    }
+    .menu_item{
+        display: block;
+        position: fixed;
+        width: 100%;
+        left: -110%;
+        border: none;
+
+    }
+    .menu{
+        position: relative;
+    }
+    .menu_btn{
+        position: relative;
+        left: -44%;
+    }
+    .menu_btn > span::after{
+        content: "\2261";
+        
+    }
+    #ch:checked~ .menu_item{
+        position: static;
+    }
+    #ch:checked~ .menu_item > label{
+        display: block;
+        margin-top: 10px;
+    }
+    #ch:checked~ .menu{
+        visibility: visible;
+        left: -2%;
+    }
+    #ch:checked~ .menu_btn > span::after{
+        content: "\2573";
+    }
+
+
+
+
+}

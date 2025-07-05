@@ -1,0 +1,17 @@
+aside .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // margin: 0 auto;
+}
+
+aside .aside_desc img {
+    width: 40%;
+    padding: 5px;
+}
+
+aside .aside_desc p {
+    width: 60%;
+    margin: 0;
+    text-align: left;
+}

@@ -1,0 +1,127 @@
+*{
+  font-family: "Snell Roundhand", monospace;
+}
+
+
+.container nav{
+  background-image: url("images_.jpg");
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+nav h1{
+  color: white;
+}
+menu{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+menu a{
+  margin: 10px;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img{
+  align-items: center;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+}
+
+a, p, h1, h2, h3 {
+  color: black;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.smallText {
+  font-size: 14px;
+}
+
+.bigText {
+  font-size: 20px;
+}
+
+main .text p {
+  border-left: 1px solid black;
+  padding: 0 5px 0 5px;
+}
+
+.gap {
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  width: 80%;
+}
+
+p {
+  font-size: 16px;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+main {
+  flex: 1 1 auto;
+}
+main .border {
+  flex: 2 1;
+}
+main aside {
+  flex: 1 1;
+}
+
+.img img {
+  width: 14vw;
+}
+
+aside img {
+  width: 100px;
+  height: 100px;
+}
+
+aside .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside .aside_desc img {
+  width: 40%;
+  padding: 5px;
+}
+
+aside .aside_desc p {
+  width: 60%;
+  margin: 0;
+  text-align: left;
+}
+
+.flex_center{
+  text-align: center;
+
+}
